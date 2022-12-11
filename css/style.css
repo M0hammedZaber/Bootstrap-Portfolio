@@ -1,0 +1,13 @@
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    size: 50px;
+    margin-top: 30px;
+  }
