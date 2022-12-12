@@ -1,13 +1,42 @@
-.fa {
+body {
+    background-color: grey;
+}
+
+
+#medialinks {
+    margin-top: 25px;
+    margin-bottom: 30px;
+  }
+  
+  .fa {
     padding: 20px;
     font-size: 30px;
-    width: 50px;
+    width: 75px;
     text-align: center;
     text-decoration: none;
   }
-  .fa-twitter {
-    background: #55ACEE;
+  
+  .fa:hover {
+    opacity: 0.4;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
     color: white;
-    size: 50px;
-    margin-top: 30px;
+    margin: 5px 5px 5px 5px;
+  }
+  
+  .fa-github {
+    background: #171515;
+    color: white;
+    margin: 5px 5px 5px 5px;
+  }
+  button {
+    background-color: red;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0px 20px rgb(4, 52, 68);
+    border: 1px solid rgb(4, 52, 68)
+  }
+  #information {
+    background-color: white;
   }
