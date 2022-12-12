@@ -4,14 +4,14 @@ body {
 
 
 #medialinks {
-    margin-top: 25px;
-    margin-bottom: 30px;
+    margin-top: 20px;
+    margin-bottom: 25px;
   }
   
   .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 75px;
+    padding: 18px;
+    font-size: 28px;
+    width: 68px;
     text-align: center;
     text-decoration: none;
   }
@@ -23,20 +23,37 @@ body {
   .fa-linkedin {
     background: #007bb5;
     color: white;
-    margin: 5px 5px 5px 5px;
+    margin: 7px 7px 7px 7px;
   }
   
   .fa-github {
     background: #171515;
     color: white;
-    margin: 5px 5px 5px 5px;
+    margin: 7px 7px 7px 7px;
   }
   button {
     background-color: red;
     cursor: pointer;
-    box-shadow: 0 1px 4px rgb(4, 52, 68), 0 0px 20px rgb(4, 52, 68);
-    border: 1px solid rgb(4, 52, 68)
+    border: 1px solid white
   }
+  
+  button:hover {
+    box-shadow: 0 5px 10px rgb(255, 255, 255), 0 0px 10px rgb(255, 255, 255);
+  }
+
   #information {
     background-color: white;
+    margin-top: 28px;
+  }
+
+  .experiencecard {
+    margin-bottom: 20px;
+  }
+
+  #bar {
+background-color: #171515;
+  }
+
+  #summary {
+    margin-top: 20px;
   }

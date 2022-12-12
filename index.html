@@ -18,7 +18,7 @@
         <section class="hero-section">
             <div class="container">
                 <div class="jumbotron">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: grey;">
                         <a class="navbar-brand" href="#"></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse"
                             data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -46,9 +46,9 @@
                                             <a class="nav-link" href="#skills">Skills</a>
                                         </li>
                                         <li class="nav-item dropdown">
-                                            <a class="nav-link dropdown-toggle" href="#"
-                                                id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                                                aria-haspopup="true" aria-expanded="false">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                                role="button" data-toggle="dropdown" aria-haspopup="true"
+                                                aria-expanded="false">
                                                 Contact Me
                                             </a>
                                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -61,36 +61,45 @@
                             </nav>
                         </div>
                     </nav>
-                    <h1 class="display-4">Mohammed Zaber</h1>
-                    <p class="lead">Welcome to my world</p>
-                    <hr class="my-4">
-                    <p>II am a hard-working and dynamic professional looking for an opportunity to grow in a new,
-                        exciting environment. I have a passion for front-end web development and have recently started a
-                        fantastic bootcamp course to help me with this journey.</p>
-                    <div><img src="images/profile-picture.png" alt=""></div>
+                    <div class="container-fluid" id="summary">
+                        <div class="row">
+                            <div class="col-sm-12 col-md-8 col-lg-6" id="summarytext">
+                                <h1 class="display-4">Mohammed Zaber</h1>
+                                <p class="lead">Welcome to my world!</p>
+                                <p class="lead">This is my front-end web devolper portfolio</p>
+                            </div>
+                            <div class="col-sm-12 col-md-4 col-lg-6">
+                                <img src="images/profile-picture.png" style="height: 20rem" id="picture">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
         </section>
     </header>
 
-
-
     <main>
+        <div id="contentHeading" class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h2 id="myexperience" class="display-5">My experience</h2>
+                </div>
+            </div>
+        </div>
         <div id="myexperience" class="container-fluid">
             <div class="row">
-                <div class="cardcontainer col-sm-12 col-md-6 col-lg-3">
+                <div class="cardcontainer col-sm-12 col-md-6 col-lg-3 experiencecard">
                     <div class="card" style="width: 18rem;">
                         <img src="images/flowers.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Horiseon code refactor</h5>
                             <p class="card-text">Here I did some refactoring to make the previous code more
                                 efficient, comprehensible and accessible, inturn this will improve SEO.</p>
-                            <a href="https://m0hammedzaber.github.io/Horiseon-module1/" class="btn btn-primary">let's
+                            <a href="https://m0hammedzaber.github.io/Horiseon-module1/" class="btn btn-primary">Let's
                                 go</a>
                         </div>
                     </div>
                 </div>
-                <div class="cardcontainer col-sm-12 col-md-6 col-lg-3">
+                <div class="cardcontainer col-sm-12 col-md-6 col-lg-3 experiencecard">
                     <div class="card" style="width: 18rem;">
                         <img src="images/flowers.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -102,7 +111,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cardcontainer col-sm-12 col-md-6 col-lg-3">
+                <div class="cardcontainer col-sm-12 col-md-6 col-lg-3 experiencecard">
                     <div class="card" style="width: 18rem;">
                         <img src="images/flowers.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -113,7 +122,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cardcontainer col-sm-12 col-md-6 col-lg-3">
+                <div class="cardcontainer col-sm-12 col-md-6 col-lg-3 experiencecard">
                     <div class="card" style="width: 18rem;">
                         <img src="images/flowers.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -161,7 +170,7 @@
                     <div class="card-container col-12">
                         <h2 class="display-5" id="contentheading">Contact me</h2>
                         <p class="lead">
-                            If you'd like to know more or ask a question please email me at [email address] or use the
+                            If you'd like to know more or ask a question please email me at mohammedzabercoding@gmail.com or use the
                             'get
                             in touch' button below!</p>
                     </div>
@@ -169,16 +178,13 @@
             </div>
         </section>
 
-
-
-
         <footer>
             <div class="container h-100" id="medialinks">
                 <div class="row h-100 justify-content-center align-items-center">
                     <a href="https://www.linkedin.com/in/mohammed-zaber-3b7351204/"><i class="fa fa-linkedin"></i></a>
                     <a href="https://github.com/M0hammedZaber"><i class="fa fa-github"></i></a>
+                    <a id="getintouch" href='mailto:mohammedzabercoding@gmail.com'><button>Get in touch</button></a>
                 </div>
-                <a id="getintouch" href='mailto:mohammedzabercoding@gmail.com'><button>Get in touch</button></a>
             </div>
         </footer>
 
