@@ -2,7 +2,6 @@ body {
     background-color: grey;
 }
 
-
 #medialinks {
     margin-top: 20px;
     margin-bottom: 25px;
@@ -31,6 +30,7 @@ body {
     color: white;
     margin: 7px 7px 7px 7px;
   }
+  
   button {
     background-color: red;
     cursor: pointer;
